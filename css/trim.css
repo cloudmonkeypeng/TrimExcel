@@ -1,0 +1,15 @@
+body{
+	background-color: #eee;
+}
+
+.navbar-fixed-top{
+	border : 0
+}
+
+#trim-main{
+	margin-top: 70px;
+}
+
+#trim-button{
+	margin-top: 50px;
+}

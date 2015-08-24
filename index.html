@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+	    <meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>Trim Excel</title>
+		
+		<!-- Bootstrap -->
+		<link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/trim.css" rel="stylesheet">
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">Excel数据复制</a>
+				</div>
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#">设置</a></li>
+						<li><a href="#">帮助</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="container-fluid" id="trim-main">
+			<div class="row">
+				<div class="col-sm-5 col-md-5">
+					<div class="form-group">
+						<label >Excel成列数据</label>
+						<textarea class="form-control" rows="5"></textarea>
+					</div>
+				</div>
+				<div class="col-sm-2 col-md-2 ">
+					<button type="button" class="btn btn-primary center-block" id="trim-button">转换</button>
+				</div>
+				<div class="col-sm-5 col-md-5">
+					<div class="form-group">
+						<label >翻译后数据</label>
+						<textarea class="form-control" rows="5"></textarea>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	</body>
+</html>

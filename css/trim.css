@@ -2,14 +2,22 @@ body{
 	background-color: #eee;
 }
 
+textarea{
+	resize: none;
+}
+
 .navbar-fixed-top{
 	border : 0
+}
+
+.center-button{
+	margin-top: 50px;
 }
 
 #trim-main{
 	margin-top: 70px;
 }
 
-#trim-button{
-	margin-top: 50px;
+#trim-button,#copy-button{
+	width: 120px;
 }

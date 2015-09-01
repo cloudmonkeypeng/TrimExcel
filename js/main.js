@@ -7,19 +7,18 @@ $(document).ready(function(){
 		},
 		afterCopy:function(){/* 复制成功后的操作 */
 			$("#copyResult").modal('show');
-			Console.log('复制成功');
-        }
+			setTimeout(function() {
+				$("#copyResult").modal('hide');
+			}, 5000);
+		}
 	});
 	
 	$("#trim-button").click(function(){
-		var sourceData ="";
-		sourceData = $("#sourceData").val();
-		$("#trimData").val(sourceData);
+		$("#trimData").val(trimData($("#sourceData").val()));
 	});
-	
-	$("#copy-button").click(function(){
-		
-	});
-	
-	$("#copy-button").popover();
 });
+
+function trimData(sourceData){
+	var trimData = "假设已经整理过"+sourceData;
+	return trimData; 
+}
